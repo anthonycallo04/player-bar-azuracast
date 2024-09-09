@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reproductor de Radio</title>
+<link rel="stylesheet" href="playeradio.css">
+</head>
+<body>
+
+<div class="radio-player">
+  <div class="player-bar">
+    <div class="play-control">
+      <button class="play-btn" onclick="togglePlay()">
+        <img src="https://player.radiorockhits.online/play-icon35px.png" alt="Play">
+      </button>
+    </div>
+    <div class="song-info">
+      <img class="cover-image" src="" alt="Cover Image">
+      <p class="song-title"></p>
+    </div>
+  </div>
+</div>
+
+<audio id="audioPlayer" src=""></audio>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="playerradio.js"></script>
+
+</body>
+</html>
